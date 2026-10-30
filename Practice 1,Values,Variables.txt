@@ -1,0 +1,74 @@
+# Problem #1
+
+'''customer = "Karachi Crafts"
+quantity = 3
+price_per_lamp = 2400
+delivery_charge = 350
+
+total = quantity * price_per_lamp + delivery_charge
+
+print("Customer:", customer)
+print("Order total: Rs", total)
+print("Type of total:", type(total))'''
+
+
+# Problem # 2
+
+'''subtotal = 7200
+tax_rate = 0.18
+
+tax_amount = subtotal * tax_rate
+total_with_tax = subtotal + tax_amount
+
+print(tax_amount)
+print(total_with_tax)
+print(type(tax_amount))'''
+
+# Problem # 3
+
+'''total_bill = 4750
+friends = 4
+
+# Calculate each person's share
+share = total_bill / friends
+print("Each person's share:", share)
+
+# Calculate whole rupees per person
+whole_rupees = total_bill // friends
+print("Whole rupees per person:", whole_rupees)
+
+# Calculate the remainder
+leftover = total_bill % friends
+print("Rupees left over:", leftover)'''
+
+# Problem # 4
+
+'''phone_price = 15000
+discount_rate = 0.10
+tax_rate = 0.18
+
+discount = phone_price * discount_rate
+discounted_price = phone_price - discount
+
+tax_after_discount = discounted_price * tax_rate
+final_price_1 = discounted_price + tax_after_discount
+
+print("Discount first, then tax:", final_price_1)'''
+
+# Problem # 5
+
+items = 23
+items_per_box = 6
+shipping_per_box = 120
+
+full_boxes = items // items_per_box
+print("Full boxes:", full_boxes)
+
+leftover_items = items % items_per_box
+print("Items left over:", leftover_items)
+
+total_boxes = full_boxes + (leftover_items > 0)
+print("Total boxes needed:", total_boxes)
+
+shipping_cost = total_boxes * shipping_per_box
+print("Shipping cost: Rs", shipping_cost)
